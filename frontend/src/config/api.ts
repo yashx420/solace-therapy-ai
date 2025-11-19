@@ -1,7 +1,6 @@
 // API Configuration
-// Update this URL when you deploy your backend to Render
 export const API_CONFIG = {
-  BACKEND_URL: "https://sentinel-ai-6czp.onrender.com",
+  BACKEND_URL: import.meta.env.VITE_API_URL,
 };
 
 // Chat API endpoints
